@@ -1,0 +1,70 @@
+footer {
+  padding: 19px 0 19px 0;
+  background: #edeef3;
+  position: relative;
+}
+
+footer::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 986px;
+  background-color: #ced4da;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 0px;
+}
+
+.container {
+  width: 986px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #abb5be;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px 0px 0px 4px;
+  padding: 0 14px 0 14px;
+} */
+.btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #abb5be;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px 0px 0px 4px;
+  padding: 12px 14px 12px 14px;
+} 
+
+button:hover {
+  background: #055160;
+}
+
+label {
+  margin-right: 12px;
+}
+
+select {
+  width: 120px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #6c757d;
+}

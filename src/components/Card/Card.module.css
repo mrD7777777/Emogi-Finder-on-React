@@ -1,0 +1,36 @@
+.card {
+  text-align: center;
+  padding: 24px;
+  max-width: 316px;
+  height: auto;
+  background-color: #fff;
+}
+
+.card_emoji {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #68717a;
+}
+
+.card_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.card_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #3f444a;
+}

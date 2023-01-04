@@ -1,0 +1,8 @@
+main {
+  padding: 80px 0 51px 0;
+  background: #edeef3;
+  display: grid;
+  gap: 22px 19px;
+  grid-template-columns: 316px 316px 316px;
+  justify-content: center;
+}
